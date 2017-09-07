@@ -1,0 +1,5 @@
+<ng-form name="innerForm">
+    <input type="text" ng-model="name" required>    
+</ng-form>
+<p>Outer form refrence inside inner form ($parent.outerForm.$submitted) Click on Send : </p>
+{{$parent.outerForm.$submitted}}

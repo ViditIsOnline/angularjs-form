@@ -2,6 +2,7 @@
 <form name="outerForm" novalidate>
     <inner-form></inner-form>
     <button type="submit">Send</button>
+    <button type="button" ng-click="outerForm.$submitted = false">Reset</button>
 </form>
 
 <p>Outer form error reference (outerForm.$error) : Try inserting value in textbox</p>
